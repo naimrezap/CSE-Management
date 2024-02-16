@@ -1,0 +1,38 @@
+nav> ul> li{
+    display: inline;
+    margin-right:  15px;
+   
+    
+    
+
+    
+}
+nav > ul{
+    text-align: right;
+}
+nav li > a{
+    text-decoration: none;
+}
+footer > p 
+{
+    text-align: center;
+    margin-bottom: 250px;
+}
+main > article > header > h1{
+    text-align: center;
+    margin-bottom: 200px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 400px;
+}
+header{
+    margin-top: 50px;
+}
+body >main > article > header > p{
+    margin-left: 400px;
+}
+

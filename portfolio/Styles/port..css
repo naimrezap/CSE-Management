@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.naim{
+    color: brown;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    float: right;   
+}
+nav a{
+    text-decoration: none;
+    color: blue;
+}
+button{
+    background-color: coral;
+    padding: 12px 12px 12px 12px;
+}
+.naim{
+    margin-left: 100px;
+}

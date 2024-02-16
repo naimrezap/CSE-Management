@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+        fieldset>label{
+            display: inline;
+            margin-right: 50px;
+        }
+        fieldset{
+            margin-bottom: 50px;
+        }
+        header{
+            text-align: center;
+            margin-bottom: 70px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Registration">
+        <header><h1>Registration Form for CSE Department</h1></header>
+    <h3>Please Fill Up the Form :</h3>
+    <label for="name">Enter Your name  :  
+        <input type="name" placeholder="Your Name">
+    </label>
+    <label for="Fathers name">Enter Father's name : 
+        <input type="text" placeholder="Your Fathers name">
+    </label>
+    <label for="Mothers name">Enter Mother's name : 
+        <input type="text" placeholder="Your Mothers name">
+    </label>
+    <fieldset>
+        <legend>Choose any one_</legend>
+        <p>Choose Your Religion :</p>
+        <label for="religion">
+            <input type="radio" name="religion" id="Islam">Islam
+        </label>
+        <label for="religion">
+            <input type="radio" name="religion" id="Hindu">Hindu
+        </label>
+        <label for="religion">
+            <input type="radio" name="religion" id="chrischan">Chrischan
+        </label>
+        <label for="religion">
+            <input type="radio" name="religion" id="budhho">budhho
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Choose your skills : </legend>
+        <label for="skills">
+            <input type="checkbox" name="Python" id="python">python
+        </label>
+        <label for="skills">
+            <input type="checkbox" name="Java" id="java">Java
+        </label>
+        <label for="skills">
+            <input type="checkbox" name="C++" id="C++">C++
+        </label>
+        <label for="skills">
+            <input type="checkbox" name="C" id="C">C
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Special Instruction_
+        </legend>
+        <textarea name="text" id="instruction" cols="5" rows="3"></textarea>
+    </fieldset>
+    <input type="reset" value="reset" style="margin-right: 50px;">
+    <input type="submit" value="Submit">
+
+    </form>
+    
+
+    
+</body>
+</html>
